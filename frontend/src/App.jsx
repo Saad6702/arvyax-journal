@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import './index.css'
 
-const API = 'http://localhost:5000/api/journal'
+const API = 'https://arvyax-journal-fno9.onrender.com/api/journal'
 
 export default function App() {
   const [userId, setUserId] = useState('user1')
