@@ -1,0 +1,77 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: sans-serif;
+  background: #f0f4f0;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+h1 { color: #2d6a4f; margin-bottom: 20px; }
+h2 { color: #2d6a4f; margin: 20px 0 10px; }
+
+textarea, select, input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px 5px 5px 0;
+  background: #2d6a4f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover { background: #1b4332; }
+button:disabled { background: #aaa; cursor: not-allowed; }
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.emotion-tag {
+  display: inline-block;
+  background: #d8f3dc;
+  color: #1b4332;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  margin: 3px;
+}
+
+.error { color: red; margin: 10px 0; }
+.success { color: green; margin: 10px 0; }
+
+.insights-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.insight-box {
+  background: #d8f3dc;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.insight-box h3 { font-size: 13px; color: #555; }
+.insight-box p { font-size: 22px; font-weight: bold; color: #2d6a4f; }
