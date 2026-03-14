@@ -1,3 +1,8 @@
+## 🌐 Live Demo
+- **Frontend:** https://arvyax-journal-omega.vercel.app
+- **Backend API:** https://arvyax-journal-fno9.onrender.com
+- **GitHub:** https://github.com/Saad6702/arvyax-journal
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
